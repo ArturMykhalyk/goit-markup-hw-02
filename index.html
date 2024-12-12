@@ -3,30 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="WebStudio" content="Effective Solutions for Your Business" />
-    <link rel="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"> 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>WebStudio</title>
   </head>
+
   <body>
-    <header >
+    <header>
       <nav>
-        <a class="logo1" href="./index.html">Web<span class="logo2">Studio</span></a>
+        <a class="logof" href="./index.html"
+          >Web<span class="logot">Studio</span></a
+        >
         <ul class="menu-links">
-          <li><a class="studio" href="">Studio</a></li>
-          <li><a class="portfolio" href="">Portfolio</a></li>
-          <li><a class="contacts" href="">Contacts</a></li>
+          <li><a class="link" href="./index.html">Studio</a></li>
+          <li><a class="link" href="">Portfolio</a></li>
+          <li><a class="link" href="">Contacts</a></li>
         </ul>
       </nav>
-      <address >
-        <ul class="contacts-links">
-          <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+      <address>
+        <ul class="cont-links">
+          <li>
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          </li>
         </ul>
       </address>
     </header>
-    
+    <main>
       <!--home page-->
       <section>
         <h1>Effective Solutions for Your Business</h1>
@@ -38,7 +54,7 @@
         <ul class="eff-sol">
           <li>
             <h3 class="solution">Strategy</h3>
-            <p class="text" >
+            <p class="text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
@@ -70,10 +86,10 @@
         </ul>
       </section>
       <!--team member list-->
-      <section>
+      <section class="sec-team">
         <h2>Our Team</h2>
         <ul class="team-list">
-          <li>
+          <li class="fon-team">
             <img
               src="./images/mark_guerrero.jpg"
               alt="man with a beard"
@@ -84,7 +100,7 @@
             <p class="descr">Product Designer</p>
           </li>
 
-          <li>
+          <li class="fon-team">
             <img
               src="./images/tom_ford.jpg"
               alt="young boy"
@@ -95,7 +111,7 @@
             <p class="descr">Frontend Developer</p>
           </li>
 
-          <li>
+          <li class="fon-team">
             <img
               src="./images/gamila_garcia.jpg"
               alt="young girl"
@@ -106,7 +122,7 @@
             <p class="descr">Marketing</p>
           </li>
 
-          <li>
+          <li class="fon-team">
             <img
               src="./images/daniel_wilson.jpg"
               alt="young man"
@@ -120,53 +136,81 @@
       </section>
       <!--Our Portfolio-->
       <section>
-<h2>Our Portfolio</h2>
+        <h2>Our Portfolio</h2>
+        <ul class="portfolio">
+          <li>
+            <img
+              src="./images/banking_app.jpg"
+              alt="any application tiles"
+              width="360"
+              height="300"
+            />
+            <h3 class="name">Banking App</h3>
+            <p class="descr">App</p>
+          </li>
 
-<ul class="portfolio">
-  <li>
-    <img src="./images/banking_app.jpg" alt="any application tiles" width="360" height="300">
-    <h3 class="name">Banking App</h3>
-    <p class="descr">App</p>
-  </li>
+          <li>
+            <img
+              src="./images/cashless_payment.jpg"
+              alt="online payment"
+              width="360"
+              height="300"
+            />
+            <h3 class="name">Cashless Payment</h3>
+            <p class="descr">Marketing</p>
+          </li>
 
-  <li>
-    <img src="./images/cashless_payment.jpg" alt="online payment" width="360" height="300">
-    <h3 class="name">Cashless Payment</h3>
-    <p class="descr">Marketing</p>
-  </li>
+          <li>
+            <img
+              src="./images/meditation_app.jpg"
+              alt="laptop"
+              width="360"
+              height="300"
+            />
+            <h3 class="name">Meditation App</h3>
+            <p class="descr">App</p>
+          </li>
 
-  <li>
-    <img src="./images/meditation_app.jpg" alt="laptop" width="360" height="300">
-    <h3 class="name">Meditation App</h3>
-    <p class="descr">App</p>
-  </li>
+          <li>
+            <img
+              src="./images/taxi_service.jpg"
+              alt="auto"
+              width="360"
+              height="300"
+            />
+            <h3 class="name">Taxi Service</h3>
+            <p class="descr">Marketing</p>
+          </li>
 
-  <li>
-    <img src="./images/taxi_service.jpg" alt="auto" width="360" height="300">
-    <h3 class="name">Taxi Service</h3>
-    <p class="descr">Marketing</p>
-  </li>
+          <li>
+            <img
+              src="./images/screen_illustrations.jpg"
+              alt="smartphone"
+              width="360"
+              height="300"
+            />
+            <h3 class="name">Screen Illustrations</h3>
+            <p class="descr">Design</p>
+          </li>
 
-  <li>
-    <img src="./images/screen_illustrations.jpg" alt="smartphone" width="360" height="300">
-    <h3 class="name">Screen Illustrations</h3>
-    <p class="descr">Design</p>
-  </li>
-
-  <li>
-    <img src="./images/online_courses.jpg" alt="girl" width="360" height="300">
-    <h3 class="name">Online Courses</h3>
-    <p class="descr">Marketing</p>
-  </li>
-
-  </ul>
-
-
+          <li>
+            <img
+              src="./images/online_courses.jpg"
+              alt="girl"
+              width="360"
+              height="300"
+            />
+            <h3 class="name">Online Courses</h3>
+            <p class="descr">Marketing</p>
+          </li>
+        </ul>
       </section>
     </main>
 
-    <footer>
-      <a class="logo1" href="./index.html">Web<span class="logo2">Studio</span></a>
+    <footer class="foot-fon">
+      <a class="logof" href="./index.html"
+        >Web<span class="logofoot">Studio</span></a
+      >
       <p class="fot-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
