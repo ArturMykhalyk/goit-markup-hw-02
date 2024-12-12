@@ -84,7 +84,8 @@ body{
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
-    }
+    letter-spacing: 0.02em;
+}
 
 .eff-sol .solution{
     font-weight: 500;
