@@ -41,6 +41,7 @@ body{
     text-decoration: underline;
 }
 
+.addr-fon{font-style: normal;}
 
 .cont-links .link{
     font-weight: 400;
@@ -48,17 +49,21 @@ body{
     line-height: 1.5;
     color: #434455;
     text-decoration: none;
-    font-style: normal;
+    
 }
 .cont-links .link:hover, .cont-links .link:focus{color: #404bbf;}
 
-h1{
+.start-scr{
+    background-color:#2e2f42;
+}
+
+.start-scr .title{
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     color: #ffffff;
-    background: #2e2f42;
+  
 }
 
 .start-scr-btn{
@@ -68,6 +73,7 @@ h1{
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    text-align: center;
     background-color: #4d5ae5;
 }
 .start-scr-btn:hover, .start-scr-btn:focus{background: #404bbf;}
@@ -78,6 +84,7 @@ h2{font-weight: 700;
     text-align: center;
     color: #2e2f42;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
 }
 
 .eff-sol .solution{
